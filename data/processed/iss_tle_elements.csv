@@ -1,0 +1,3 @@
+name,norad_id,epoch_utc,inclination_deg,raan_deg,eccentricity,argp_deg,mean_anomaly_deg,mean_motion_rev_per_day
+ISS (ZARYA),25544,2026-01-08 12:00:03.881088+00:00,51.6332,9.9851,0.0007637,355.2,4.8914,15.49175445
+ISS (NAUKA),49044,2026-01-08 12:00:03.881088+00:00,51.6332,9.9851,0.0007637,355.2,4.8914,15.49175445
