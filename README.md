@@ -9,13 +9,13 @@ Public Two-Line Element (TLE) data from CelesTrak for the International Space St
 
 Method
 
-Parse historical TLE data
+1. Parse historical TLE data
 
-Propagate orbits using SGP4
+2. Propagate orbits using SGP4
 
-Compute positional error over time
+3. Compute positional error over time
 
-Train a machine learning model to predict and correct error residuals
+4. Train a machine learning model to predict and correct error residuals
 
 Results
 Baseline propagation error: TBD
@@ -23,18 +23,18 @@ ML-corrected error: TBD
 
 How to Run
 
-Install dependencies
-pip install -r requirements.txt
+1. Install dependencies
+   pip install -r requirements.txt
 
-Run notebooks in order
-notebooks/01_data_exploration.ipynb
-notebooks/02_baseline_propagation.ipynb
-notebooks/03_ml_model.ipynb
+2. Run notebooks in order
+   notebooks/01_data_exploration.ipynb
+   notebooks/02_baseline_propagation.ipynb
+   notebooks/03_ml_model.ipynb
 
 Next Steps
 
-Test additional satellites
+1. Test additional satellites
 
-Improve feature engineering
+2. Improve feature engineering
 
-Evaluate longer prediction horizons
+3. Evaluate longer prediction horizons
